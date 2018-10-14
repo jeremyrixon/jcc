@@ -6,7 +6,7 @@ SEMICOLON: ';' ;
 BRACE_OPEN: '{';
 BRACE_CLOSE: '}';
 KEYWORD_INT: 'int';
-KEYWORD_RETURN: 'return';
+KEYWORD_RETURN: 'return'[ \t\r\n];
 IDENTIFIER: [a-zA-Z]+ ;
 LITERAL_INT: [0-9]+ ;
 WS: [ \t\r\n]+ -> skip;
